@@ -1,0 +1,7 @@
+docker-compoose.yml
+Dockerfile
+.dockerignore
+README.md
+.next
+.git
+.gitignore
