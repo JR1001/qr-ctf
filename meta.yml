@@ -1,0 +1,24 @@
+name: QR CTF
+description: |
+  A CTF that uses QR codes and other strategies to hide the flag.
+
+  **Connection Instructions**:
+
+  Do the following:
+
+  $ `ssh -L localhost:<local port>:qr-ctf:3000 -p 56151 <username>@cs561.cs.umass.edu`
+
+  For example, run
+
+  $ `ssh -L localhost:3000:qr-ctf:3000 -p 56151 user@cs561.cs.umass.edu`
+
+  Now, open the website at http://localhost:3000 to access the challenge.
+
+  **Note**:
+
+  It is recommended that you try the challenge on Google Chrome.
+
+value: 100
+category: Stegonagraphy
+flag: Thanks :)
+container_name: qr-ctf
